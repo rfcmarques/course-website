@@ -5,7 +5,7 @@
 }
 
 .header .slide {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -26,6 +26,14 @@
     height: 800px !important;
     min-height: 800px !important;
   }
+  .header .slide {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header .text-container p {
+    width: 100% !important;
+    font-size: 16px;
+  }
   .register {
     padding: 40px 0 !important;
   }
@@ -33,7 +41,7 @@
     text-align: center;
   }
   .summary {
-    margin-top: 0 m !important;
+    margin-top: 0 !important;
     width: 90% !important;
   }
 }
